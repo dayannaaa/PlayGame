@@ -1,0 +1,55 @@
+{
+    "folders": [
+        {
+            "name": "MyProjectA",
+            "path": "C:/Users/Home/Documents/Fortnite Projects/MyProjectA/Plugins/MyProjectA/Content"
+        },
+        {
+            "name": "MyProjectA/Assets",
+            "path": "C:/Users/Home/AppData/Local/UnrealEditorFortnite/Saved/VerseProject/MyProjectA/MyProjectA-Assets"
+        },
+        {
+            "name": "vproject - DO NOT MODIFY",
+            "path": "C:/Users/Home/AppData/Local/UnrealEditorFortnite/Saved/VerseProject/MyProjectA/vproject"
+        },
+        {
+            "name": "Verse",
+            "path": "C:/Users/Home/AppData/Local/UnrealEditorFortnite/Saved/VerseProject/MyProjectA/Verse"
+        },
+        {
+            "name": "UnrealEngine",
+            "path": "C:/Users/Home/AppData/Local/UnrealEditorFortnite/Saved/VerseProject/MyProjectA/UnrealEngine"
+        },
+        {
+            "name": "Fortnite",
+            "path": "C:/Users/Home/AppData/Local/UnrealEditorFortnite/Saved/VerseProject/MyProjectA/Fortnite"
+        }
+    ],
+    "settings": {
+        "files.exclude": {
+            "**/*.uasset": true,
+            "**/*.umap": true,
+            "**/*.png": true,
+            "**/*.jpg": true,
+            "**/*.tga": true,
+            "_INT": true,
+            "**/*.vproject": true,
+            "__ExternalActors__": true,
+            "__ExternalObjects__": true
+        },
+        "files.autoSave": "onWindowChange",
+        "editor.bracketPairColorization.enabled": false,
+        "editor.acceptSuggestionOnEnter": "off"
+    },
+    "launch": {
+        "version": "0.2.0",
+        "configurations": [
+            {
+                "name": "Verse Debug",
+                "type": "verse",
+                "request": "attach",
+                "debugServer": 1961
+            }
+        ]
+    }
+}
